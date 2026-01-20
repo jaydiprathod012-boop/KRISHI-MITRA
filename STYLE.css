@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #e8f5e9, #ffffff);
+  color: #2e7d32;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: #2e7d32;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b5e20;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+.result, .buyers {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  background: #f1f8e9;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+}
