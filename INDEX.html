@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krishi Mitra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌾 Krishi Mitra</h1>
+    <p>Right Quality • Right Buyer • Right Price</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Upload Produce Image</h2>
+      <input type="file" id="imageInput" accept="image/*"/>
+      <button onclick="analyze()">Analyze Quality</button>
+    </section>
+
+    <section class="card result" id="resultBox">
+      <h2>AI Quality Result</h2>
+      <p id="grade">Grade: —</p>
+      <p id="confidence">Confidence: —</p>
+    </section>
+
+    <section class="card buyers" id="buyersBox">
+      <h2>Recommended Buyers</h2>
+      <ul id="buyerList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Krishi Mitra | Empowering Farmers with AI</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
